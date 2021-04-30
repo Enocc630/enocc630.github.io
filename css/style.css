@@ -1,1 +1,167 @@
+*
+{
+	font-family: Verdana, Arial, sans-serif;
+}
+.index
+{
+	display: flex;
+	flex-direction: row-reverse;
+	border: 1px black solid;
+	width: 1600px;
+	height: 900px;
+}
+/*1ère colonne*/
+nav
+{
+	width: 400px;
+	height: 900px;
+	background-color: black;
+}
+figure
+{
+	width: 400px;
+	margin-left: -0.5px;
+}
+figure img
+{
+	width: 400px;
+	height: 300px;
+}
+figcaption
+{
+	width: 400px;
+	height: 300px;
+	font-size: 1.3em;
+	color: white;
+}
+footer
+{
+	margin-top: 200px;
+	height: 100px;
+	width: 400px;
+	font-size: 1em;
+	text-align: center;
+}
 
+/*2ème colonne*/
+
+.index section
+{
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
+	background-color: #ECEAE6;
+}
+.index header
+{
+	height: 250px;
+	font-size: 3.3em;
+	text-align: center;
+}
+ol
+{
+	align-content: center;
+}
+ol li
+{
+	width:600px;
+	height:150px;
+	margin-top: 50px;
+	font-size: 2.2em;
+	margin-left: 20px;
+}
+.index article
+{
+	display: flex;
+	flex-direction: row;
+}
+#alan
+{
+	width: 473px;
+	height: 600px;
+}
+
+
+.life
+{
+	width: 1600px;
+	height: 900px;
+	border: 1px black solid;
+	background-color: #ECEAE6;
+}
+/*Titre*/
+.life header
+{
+	width: 1600px;
+	height: 120px;
+	background-color:black;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.life h1
+{
+	font-size: 2.5em;
+}
+/*Bloc de page*/
+.life section
+{
+	align-content: space-around;
+	background-color: #ECEAE6;
+}
+p
+{
+	text-align: justify;
+	font-size: 1.5em;
+	margin: 10px 5px 10px 5px;
+}
+/*Affecte les ressources*/
+h2
+{
+	margin: 20px 0 10px 30px;
+}
+header + a
+{
+	font-size: 1.3em;
+	margin: 20px 0 20px 0;
+	color: white;
+}
+/*Images*/
+#college
+{
+	width: 400px;
+	height: 264px;
+}
+#apple
+{
+	width: 270px;
+	height: 300px;
+}
+#schema
+{
+	width: 510px;
+	height: 240px;
+}
+#bombe
+{
+	width: 435px;
+	height: 350px;
+}
+.img_1
+{
+	float: right;
+	margin: 5px 10px 10px 10px;
+	border: 1.5px black solid;
+}
+.img_2
+{
+	float: left;
+	margin: 5px 10px 10px 10px;
+	border: 1.5px black solid;
+}
+
+/*Titres pour identification*/
+h3
+{
+	font-size: 0px;
+}
